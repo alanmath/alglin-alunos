@@ -28,7 +28,7 @@ def run():
             break
 
         # Mudo o tamanho do meu frame para reduzir o processamento necessário
-        # nas próximas etapas
+        # nas próximas etapas   
         frame = cv.resize(frame, (width,height), interpolation =cv.INTER_AREA)
 
         # A variável image é um np.array com shape=(width, height, colors)
